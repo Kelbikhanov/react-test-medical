@@ -1,0 +1,161 @@
+.row-1 {
+    background-color: #003B72;
+    width: 190px;
+    height: 100vh;
+    .logo {
+        padding: 20px 0 18px 20px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .navigation {
+        ul {
+            .navli {
+                padding: 15px 0;
+                position: relative;
+                padding-left: 52px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                cursor: pointer;
+                svg {
+                    position: absolute;
+                    margin-left: -32px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+                    display: inline-block;     
+                    position: relative;    
+                    z-index: 1;     
+                    padding: 38px;     
+                    margin: -38px;
+                }
+                &:hover {
+                    background-color: #fff;
+                    color: #7761FF;
+                    a {
+                        color: #7761FF;
+                    }
+                    svg #stetoscop {
+                        fill: #7761FF;
+                    }
+                    svg #heart {
+                        fill: #7761FF;
+                    }
+                    svg #dialog {
+                        fill: #7761FF;
+                    }
+                    svg #test {
+                        fill: #7761FF;
+                    }
+                    svg #book {
+                        fill: #7761FF;
+                    }
+                }
+            }
+            
+            
+        }
+        
+    }
+
+    .btn { 
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFF;
+        background-color: #7761FF;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+        cursor: pointer;
+        &:hover {
+            color:#7761FF;
+            background-color: #fff;
+        }
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        p {
+            padding: 0 0 18px 52px;
+            font-family: 'Rubik', sans-serif;
+            font-size: 14px;
+            color:#fff;
+            font-style: normal;
+            cursor: pointer;
+            img {
+                margin-left: -30px;
+                position: absolute;
+                margin-top: -2px;
+            }
+        }
+        .logo_footer {
+            padding: 0 0 16px 20px;
+        }
+    }
+}
+
+.active_li {
+    padding: 15px 0;
+    position: relative;
+    padding-left: 52px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    svg {
+        position: absolute;
+        margin-left: -32px;
+    }
+    a {
+        text-decoration: none;
+        color: #FFF;
+        display: inline-block;     
+        position: relative;    
+        z-index: 1;     
+        padding: 38px;     
+        margin: -38px;
+    }
+    &:hover {
+        background-color: #fff;
+        color: #7761FF;
+        a {
+            color: #7761FF;
+        }
+        svg #stetoscop {
+            fill: #7761FF;
+        }
+        svg #heart {
+            fill: #7761FF;
+        }
+        svg #dialog {
+            fill: #7761FF;
+        }
+        svg #test {
+            fill: #7761FF;
+        }
+        svg #book {
+            fill: #7761FF;
+        }
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.row-2 {
+    width: 1176px;
+    height: 100vh;
+    background-color: #fcfcfc;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #50CAFF;
+        align-items: center;
+        padding: 0 23px 0 40px;
+        .header_title {
+            padding: 10px 0 12px 0;
+            color:#fff;
+            font-family: 'Rubik', sans-serif;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 33px;
+        }
+        .header_links {
+            display: flex;
+            align-items: center;
+            padding-top: 4px;
+            a {
+                padding-right: 20px;
+            }
+        }
+    }
+}

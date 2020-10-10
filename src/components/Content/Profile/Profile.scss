@@ -1,0 +1,223 @@
+
+// FONTS//
+$font-Rubik: 'Rubik', sans-serif;
+
+//COLOR//
+$main-color: #50CAFF;
+$black-color: #000;
+$grey-color: #EBE7FF;
+$purple-color: #7761FF;
+$white-color: #fff;
+
+
+.profile {
+    .title_profile {
+        padding: 15px 0 15px 40px;
+        font-family: $font-Rubik;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color:$black-color;
+    }
+
+    .write {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+        .col-1, .col-2 {
+            width: 43%;
+            height: 174px;
+            margin-right: 20px;
+            background-color: $white-color;
+            box-shadow: 0px 0px 5px $grey-color;
+            border-radius: 5px;
+            .title_write {
+                padding: 20px 0 5px 20px;
+                font-family: $font-Rubik;
+                font-weight: 500;
+                color:$black-color;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .text_write {
+                font-family: $font-Rubik;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black-color;
+                padding: 2px 0 0 20px;
+            }
+            .write_bottom {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 20px;
+                .write_ava {
+                    position: absolute;
+                }
+                .name {
+                    font-family: $font-Rubik;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color:$black-color;
+                    padding-left: 74px;
+                    padding-top: 10px;
+                }
+                .profesion {
+                    font-family: $font-Rubik;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $grey-color;
+                    padding-left: 74px;
+                }
+                .write_btn {
+                    background-color: $purple-color;
+                    font-family: $font-Rubik;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color:$white-color;
+                    border-radius: 5px;
+                    padding: 12px 15px;
+                    margin-top: 13px;
+                    border: none;
+                    cursor: pointer;
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+        .col-2 {
+            margin-right: 20px;
+            width: 43%;
+            height: 174px;
+            background-color: $white-color;
+            box-shadow: 0px 0px 5px $grey-color;
+            border-radius: 5px;
+        }
+        .col-3 {
+            width: 14%;
+            .title_col-3 {
+                font-family: $font-Rubik;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;    
+                color: $black-color;    
+                
+                padding-top: 45%;
+            }
+            a {
+                font-family: $font-Rubik;
+                font-size: 14px;
+                line-height: 20px;
+                color: $main-color;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .title_card {
+        padding: 35px 0 15px 40px;
+        font-family: $font-Rubik;
+        font-weight: normal;
+        color:$black-color;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 60px 20px 20px;
+        .card {
+            display: flex;
+            background-color: $white-color;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 5px $grey-color;
+            border-radius: 5px;
+            width: 100%;
+            height: 183px;
+            margin-right: 20px;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 0;
+            }
+            .card_info {
+                padding: 36px 36px;
+                .card_title {
+                    padding-bottom: 5px;;
+                    font-family: $font-Rubik;
+                    color: $black-color;
+                    font-size: 28px;
+                    line-height: 33px;
+                }
+                svg {
+                    margin: -2.3px -1px -1px -1px;
+                }
+                .card_hr {
+                    border: 0;
+                    height: 1px;
+                    background: $grey-color;
+                }
+                .card_text {
+                    padding-top: 15px;
+                    width: 324px;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-family: $font-Rubik;
+                }
+                .one_text {
+                    padding-top: 5px;
+                }
+            }
+            .one_info {
+                padding: 20px 36px 36px 36px;
+            }
+            &:hover {
+                width: 99.3%;
+                height: 178px;
+                margin-right: 20px;
+                box-shadow: none;
+                border: 2px solid #50CAFF;
+                &:last-child {
+                    margin-right: 0;
+                }
+                svg {
+                    margin: -2.3px -1px -1px -1px;
+                }
+                svg #analisys {
+                    fill: $main-color;
+                }
+                svg #analisys-white {
+                    fill: $white-color;
+                }
+                svg #newinfo {
+                    fill: $main-color;
+                }
+                svg #newinfo-white {
+                    fill: $white-color;
+                }
+                svg #history {
+                    fill: $main-color;
+                }
+                svg #history-white {
+                    fill: $white-color;
+                }
+                .card_hr {
+                    background: $main-color;
+                }
+                .card_info {
+                    padding: 34px 34px 34px 36px;
+                }
+                .one_info {
+                    padding: 18px 34px 34px 36px;
+                }
+            }
+        }
+    }
+}
